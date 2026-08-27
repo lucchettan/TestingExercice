@@ -10,7 +10,17 @@ final class InMemoryStore: KeyValueStore {
 }
 
 final class TestingExerciseTests: XCTestCase {
-
+    // MARK: - load
+    
+    /// Vérifie qu'un store contenant des données corrompues (JSON invalide)
+    /// ne fait pas planter : load retourne une liste vide.
+    func testLoadReturnsEmptyWhenDataIsCorrupted() {
+        let store = InMemoryStore()
+        store.set(Data("pas du json".utf8), forKey: "tasks")
+        let repo = TasksRepository(store: store)
+        XCTAssertTrue(repo.load().isEmpty)
+    }
+    
     // MARK: - add : cas nominal
 
     /// Vérifie le cas nominal : ajouter un titre valide crée exactement une tâche avec ce titre.
