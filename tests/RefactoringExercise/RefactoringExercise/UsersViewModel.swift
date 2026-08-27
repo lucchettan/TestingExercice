@@ -9,6 +9,8 @@ import Foundation
 
 @MainActor
 final class UsersViewModel: ObservableObject {
+    /// Les 4 états possibles de l'écran.
+    /// Un seul état à la fois: la view ne peut jamais afficher un chargement et une erreur en même temps.
     enum State: Equatable {
         case idle
         case loading
@@ -24,6 +26,7 @@ final class UsersViewModel: ObservableObject {
         self.repository = repository
     }
     
+    /// Charge les utilisateurs et met à jour l'état de l'écran.
     func fetch() async {
         state = .loading
         do {
