@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0000000000000000000012 /* TestingExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000010 /* TestingExerciseApp.swift */; };
+		2B0000000000000000000013 /* TasksFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000011 /* TasksFeature.swift */; };
+		2B0000000000000000000023 /* TestingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000021 /* TestingExerciseTests.swift */; };
+		2B0000000000000000000024 /* TestingExerciseIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000022 /* TestingExerciseIntegrationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B000000000000000000002E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0000000000000000000005;
+			remoteInfo = TestingExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B0000000000000000000006 /* TestingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0000000000000000000010 /* TestingExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingExerciseApp.swift; sourceTree = "<group>"; };
+		2B0000000000000000000011 /* TasksFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksFeature.swift; sourceTree = "<group>"; };
+		2B0000000000000000000020 /* TestingExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0000000000000000000021 /* TestingExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingExerciseTests.swift; sourceTree = "<group>"; };
+		2B0000000000000000000022 /* TestingExerciseIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingExerciseIntegrationTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0000000000000000000026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				2B0000000000000000000004 /* TestingExercise */,
+				2B0000000000000000000029 /* TestingExerciseTests */,
+				2B0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0000000000000000000006 /* TestingExercise.app */,
+				2B0000000000000000000020 /* TestingExerciseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B0000000000000000000004 /* TestingExercise */ = {
+			isa = PBXGroup;
+			children = (
+				2B0000000000000000000010 /* TestingExerciseApp.swift */,
+				2B0000000000000000000011 /* TasksFeature.swift */,
+			);
+			path = TestingExercise;
+			sourceTree = "<group>";
+		};
+		2B0000000000000000000029 /* TestingExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B0000000000000000000021 /* TestingExerciseTests.swift */,
+				2B0000000000000000000022 /* TestingExerciseIntegrationTests.swift */,
+			);
+			path = TestingExerciseTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0000000000000000000005 /* TestingExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B000000000000000000000B /* Build configuration list for PBXNativeTarget "TestingExercise" */;
+			buildPhases = (
+				2B0000000000000000000007 /* Sources */,
+				2B0000000000000000000008 /* Frameworks */,
+				2B0000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestingExercise;
+			productName = TestingExercise;
+			productReference = 2B0000000000000000000006 /* TestingExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B0000000000000000000028 /* TestingExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B000000000000000000002A /* Build configuration list for PBXNativeTarget "TestingExerciseTests" */;
+			buildPhases = (
+				2B0000000000000000000025 /* Sources */,
+				2B0000000000000000000026 /* Frameworks */,
+				2B0000000000000000000027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B000000000000000000002D /* PBXTargetDependency */,
+			);
+			name = TestingExerciseTests;
+			productName = TestingExerciseTests;
+			productReference = 2B0000000000000000000020 /* TestingExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2B0000000000000000000005 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2B0000000000000000000028 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2B0000000000000000000005;
+					};
+				};
+			};
+			buildConfigurationList = 2B000000000000000000000A /* Build configuration list for PBXProject "TestingExercise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B0000000000000000000002;
+			productRefGroup = 2B0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0000000000000000000005 /* TestingExercise */,
+				2B0000000000000000000028 /* TestingExerciseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B0000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0000000000000000000027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0000000000000000000013 /* TasksFeature.swift in Sources */,
+				2B0000000000000000000012 /* TestingExerciseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0000000000000000000025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0000000000000000000023 /* TestingExerciseTests.swift in Sources */,
+				2B0000000000000000000024 /* TestingExerciseIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B000000000000000000002D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B0000000000000000000005 /* TestingExercise */;
+			targetProxy = 2B000000000000000000002E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN5JJ5XQZ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.TestingExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN5JJ5XQZ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.TestingExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B000000000000000000002B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN5JJ5XQZ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.TestingExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestingExercise";
+			};
+			name = Debug;
+		};
+		2B000000000000000000002C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN5JJ5XQZ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interview.TestingExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestingExercise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B000000000000000000000A /* Build configuration list for PBXProject "TestingExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B000000000000000000000C /* Debug */,
+				2B000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B000000000000000000000B /* Build configuration list for PBXNativeTarget "TestingExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B000000000000000000000E /* Debug */,
+				2B000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B000000000000000000002A /* Build configuration list for PBXNativeTarget "TestingExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B000000000000000000002B /* Debug */,
+				2B000000000000000000002C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B0000000000000000000001 /* Project object */;
+}
