@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1222DB6D30403E850040063A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1222DB6C30403E850040063A /* User.swift */; };
+		1222DB6F30403EE70040063A /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1222DB6E30403EE70040063A /* UserRepository.swift */; };
+		1222DB7130403F610040063A /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1222DB7030403F610040063A /* UsersViewModel.swift */; };
 		1A0000000000000000000012 /* RefactoringExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000010 /* RefactoringExerciseApp.swift */; };
 		1A0000000000000000000013 /* UsersFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000011 /* UsersFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1222DB6C30403E850040063A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1222DB6E30403EE70040063A /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		1222DB7030403F610040063A /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
 		1A0000000000000000000006 /* RefactoringExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefactoringExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0000000000000000000010 /* RefactoringExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactoringExerciseApp.swift; sourceTree = "<group>"; };
 		1A0000000000000000000011 /* UsersFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersFeature.swift; sourceTree = "<group>"; };
@@ -49,6 +55,9 @@
 			children = (
 				1A0000000000000000000010 /* RefactoringExerciseApp.swift */,
 				1A0000000000000000000011 /* UsersFeature.swift */,
+				1222DB7030403F610040063A /* UsersViewModel.swift */,
+				1222DB6E30403EE70040063A /* UserRepository.swift */,
+				1222DB6C30403E850040063A /* User.swift */,
 			);
 			path = RefactoringExercise;
 			sourceTree = "<group>";
@@ -123,6 +132,9 @@
 			files = (
 				1A0000000000000000000013 /* UsersFeature.swift in Sources */,
 				1A0000000000000000000012 /* RefactoringExerciseApp.swift in Sources */,
+				1222DB6F30403EE70040063A /* UserRepository.swift in Sources */,
+				1222DB7130403F610040063A /* UsersViewModel.swift in Sources */,
+				1222DB6D30403E850040063A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
